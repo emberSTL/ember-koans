@@ -8,6 +8,7 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('static-model');
+  this.route('dynamic-model', { path: 'dynamic/:dynamic_id' });
 });
 
 export default Router;
